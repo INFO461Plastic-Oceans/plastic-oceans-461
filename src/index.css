@@ -454,6 +454,7 @@ li {
   margin-top: 3vh !important;
   color: #984fba !important;
   cursor: pointer;
+  width: 101vw !important;
 }
 
 .quiz-select img {
