@@ -14,7 +14,7 @@ class QuizQuestion extends Component {
         return (
             <div id="question-container">
                 <h2 id="quiz-title">{this.props.quizName}</h2>
-                <p>{this.props.currentQuestion}</p>
+                <p className="quiz-question">{this.props.currentQuestion}</p>
                 <ListGroup className="quiz-options">
                     {this.props.currentAnswers.map((item, index) => {
                         return(

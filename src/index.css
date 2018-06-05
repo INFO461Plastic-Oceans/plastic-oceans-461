@@ -513,6 +513,11 @@ li {
   cursor: pointer;
 }
 
+.quiz-question {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .selected-answer {
   background-color: #14b7c5 !important;
   color: white !important;
